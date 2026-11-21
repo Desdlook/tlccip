@@ -24,29 +24,13 @@ proxies:
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
-  server: 136.148.83.69
+  server: 185.151.243.186
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: cf4d2594-77a8-0001-b99e-73ae8fb954eb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
-  udp: true
+  servername: piodr-ru-74sel.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,8 +39,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -65,7 +47,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 rules:
 - MATCH,PROXIES
